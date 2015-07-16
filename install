@@ -1,0 +1,18 @@
+#!/bin/sh
+#
+# Create symlinks for all the dotfiles
+
+LINK='ln -sf'
+DOTFILES_ROOT=$(pwd)
+
+set -e
+
+# bash
+$LINK $DOTFILES_ROOT/bash/.??* $HOME/
+
+# zsh
+$LINK $DOTFILES_ROOT/zsh/.??* $HOME/
+
+# the rest
+$LINK $DOTFILES_ROOT/.nanorc $HOME/
+$LINK $DOTFILES_ROOT/.vimrc $HOME/

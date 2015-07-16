@@ -1,0 +1,13 @@
+bind ^S writeout main
+bind ^O insert main
+bind ^C copytext main
+bind ^V uncut main
+bind ^X cut main
+bind ^Z undo main
+bind ^Y redo main
+bind ^H replace main
+bind ^F whereis main
+bind ^W exit main
+bind ^N searchagain main
+bind F1 help main
+
