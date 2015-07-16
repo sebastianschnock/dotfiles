@@ -16,3 +16,4 @@ $LINK $DOTFILES_ROOT/zsh/.??* $HOME/
 # the rest
 $LINK $DOTFILES_ROOT/.nanorc $HOME/
 $LINK $DOTFILES_ROOT/.vimrc $HOME/
+$LINK $DOTFILES_ROOT/.gitconfig $HOME/
