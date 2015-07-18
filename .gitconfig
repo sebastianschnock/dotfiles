@@ -1,3 +1,5 @@
 [user]
 	name = sebastianschnock
 	email = sebastian.schnock@gmail.com
+[push]
+	default = simple
