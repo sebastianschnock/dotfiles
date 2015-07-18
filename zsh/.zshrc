@@ -11,3 +11,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# load aliases
+[[ -f ~/.aliases ]] && source ~/.aliases
+
+# load local config
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local

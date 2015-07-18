@@ -92,35 +92,22 @@ killp () {
     ps -ef|grep $@|grep -v grep|awk '{print $2}'|xargs kill -9
 }
 
-# display shortcuts
-function keys {
-  if [[ -z $1 ]]; then
-    echo "Usage: keys program [keyword] "
-  fi
-  PROGRAM=$1
-  KEYWORD=$2
-  if [[ -z $2 ]]; then
-    curl -s http://meineschnocks.de/keys/$PROGRAM
+function cheatsheet {
+  TYPE=$1
+  PROGRAM=$2
+  KEYWORD=$3
+  URL=https://raw.githubusercontent.com/sebastianschnock/cheatsheets/master
+  if [[ -z $KEYWORD ]]; then
+    curl -s $URL/$TYPE/$PROGRAM
   else
-    curl -s http://meineschnocks.de/keys/$PROGRAM | grep $KEYWORD
+    curl -s $URL/$TYPE/$PROGRAM | grep $KEYWORD
   fi
   echo
 }
 
-# display howto
-function howto {
-  if [[ -z $1 ]]; then
-    echo "Usage: howto program [keyword] "  
-  fi
-  PROGRAM=$1
-  KEYWORD=$2
-  if [[ -z $2 ]]; then
-    curl -s http://meineschnocks.de/howto/$PROGRAM
-  else
-    curl -s http://meineschnocks.de/howto/$PROGRAM | grep $KEYWORD
-  fi  
-  echo
-}
+alias keys='cheatsheet keys'
+alias howto='cheatsheet howto'
+
 
 # bash color codes
 function bash_colors {

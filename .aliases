@@ -1,0 +1,95 @@
+# ls
+#alias ls="ls --group-directories-first --color=auto"
+#alias l="ls -1"
+#alias ll="ls -lhF"
+#alias la="ls -lahF"
+alias lll="ll|less"
+alias lg="ll|grep"
+
+# change directory improvements
+alias cd..="cd .."
+alias cd...="cd ../.."
+alias cd....="cd ../../.."
+alias cd.....="cd ../../../.."
+alias cd......="cd ../../../../.."
+
+# apt
+alias ai="sudo apt-get install"
+alias au="sudo apt-get update"
+alias as="apt-cache search"
+alias aug="sudo apt-get upgrade"
+
+# vi
+alias vi="vim"
+alias svi="sudo vi"
+
+# bash history
+alias h="history|tail -100"
+alias hg="history|grep"
+
+# ps grep
+alias psg="ps -ef|grep"
+
+# various
+#alias e=subl
+alias n=nano
+alias rs=rsub
+
+# workaround to make aliases available to sudo (from http://askubuntu.com/a/22043)
+alias sd='sudo '
+alias sudo='sudo '
+
+# make and change to dir
+mcd () { 
+    mkdir -p "$@" && eval cd "\"\$$#\"";
+}
+
+# create and edit executable file
+vix () { 
+    touch "$1" && chmod +x "$1" && vi "$1";
+}
+
+# perform 'll' after 'cd' if successful.
+cdll() {
+  builtin cd "$*"
+  RESULT=$?
+  if [ "$RESULT" -eq 0 ]; then
+    ll
+  fi
+}
+
+# safer rm
+#if [ -n "$PS1" ] ; then
+#  rm () 
+#  { 
+#      ls -FCsd "$@"
+#      echo 'remove[ny]? ' | tr -d '\012' ; read
+#      if [ "_$REPLY" = "_y" ]; then
+#          /bin/rm -rf "$@"
+#      else
+#          echo '(cancelled)'
+#      fi
+#  }
+#fi
+
+# kill process with name
+killp () {
+    ps -ef|grep $@|grep -v grep|awk '{print $2}'|xargs kill -9
+}
+
+# show cheat sheets
+function cheatsheet {
+  TYPE=$1
+  PROGRAM=$2
+  KEYWORD=$3
+  URL=https://raw.githubusercontent.com/sebastianschnock/cheatsheets/master
+  if [[ -z $KEYWORD ]]; then
+    curl -s $URL/$TYPE/$PROGRAM
+  else
+    curl -s $URL/$TYPE/$PROGRAM | grep $KEYWORD
+  fi
+  echo
+}
+
+alias keys='cheatsheet keys'
+alias howto='cheatsheet howto'
