@@ -1,0 +1,44 @@
+[
+    { "keys": ["ctrl+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+
+    { "keys": ["ctrl+space"], "command": "auto_complete" },
+    { "keys": ["ctrl+space"], "command": "replace_completion_with_auto_complete", "context":
+        [
+            { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+            { "key": "auto_complete_visible", "operator": "equal", "operand": false },
+            { "key": "setting.tab_completion", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["f12"], "command": "toggle_distraction_free" },
+    //{ "keys": ["ctrl+m"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+
+    { "keys": ["ctrl+;"], "command": "run_macro_file", "args": {"file": "Packages/User/completeLineWithSemicolonNewline.sublime-macro"} },
+    { "keys": ["ctrl+,"], "command": "run_macro_file", "args": {"file": "Packages/User/completeLineWithCommaNewline.sublime-macro"} },
+    { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/newline.sublime-macro"} },
+
+    { "keys": ["alt+left"], "command": "jump_back" },
+    { "keys": ["alt+right"], "command": "jump_forward" },
+
+    { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 5.0 } },
+    { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -5.0 } },
+
+    // Fold contents between brackets
+    { "keys": ["ctrl+b"], "command": "bh_key", "args": {"plugin": {"type": ["__all__"],"command" : "bh_modules.foldbracket"}} },
+
+    { "keys": ["enter"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
+        [
+            { "key": "following_text", "operator": "regex_contains", "operand": "^[)'\"\\]]", "match_all": true },
+            { "key": "auto_complete_visible", "operator": "equal", "operand": false }
+        ]   
+    },
+
+    // disable auto-pairing of curly brackets
+    // { "keys": ["{"], "command": "unbound" },
+    // { "keys": ["{"], "command": "insert_snippet", "args": {"contents": "{$0}"}, "context":
+    //     [
+    //         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    //         { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    //         { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|$)", "match_all": true }
+    //     ]
+    // },    
+]
