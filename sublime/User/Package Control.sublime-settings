@@ -1,0 +1,42 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Babel",
+		"Base16 Color Schemes",
+		"ChangeQuotes",
+		"CodeFormatter",
+		"Color Highlighter",
+		"CSS3",
+		"CSScomb",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"ExtendedTabSwitcher",
+		"Git",
+		"Handlebars",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Origami",
+		"Package Control",
+		"Predawn",
+		"Project Manager",
+		"rsub",
+		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-contrib-htmlhint",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jscs",
+		"SublimeLinter-jshint",
+		"SublimeServer",
+		"SVN",
+		"Theme - Spacegray",
+		"Themr",
+		"TodoReview",
+		"Zen Tabs"
+	]
+}

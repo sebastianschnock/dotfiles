@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		".zshenv",
+		".zprofile",
+		"local",
+		".zshrc"
+	]
+}

@@ -14,11 +14,7 @@ $LINK $DOTFILES_ROOT/bash/.??* $HOME/
 $LINK $DOTFILES_ROOT/zsh/.??* $HOME/
 
 # sublime text
-$LINK $DOTFILES_ROOT/sublime/Default\ \(Linux\).sublime-keymap $HOME/.config/sublime-text-3/Packages/User/
-$LINK $DOTFILES_ROOT/sublime/Preferences.sublime-settings $HOME/.config/sublime-text-3/Packages/User/
-$LINK $DOTFILES_ROOT/sublime/Distraction\ Free.sublime-settings $HOME/.config/sublime-text-3/Packages/User/
-$LINK $DOTFILES_ROOT/sublime/completeLineWithCommaNewline.sublime-macro $HOME/.config/sublime-text-3/Packages/User/
-$LINK $DOTFILES_ROOT/sublime/completeLineWithSemicolonNewline.sublime-macro $HOME/.config/sublime-text-3/Packages/User/
+$LINK $DOTFILES_ROOT/sublime/User $HOME/.config/sublime-text-3/Packages/
 
 # the rest
 $LINK $DOTFILES_ROOT/.nanorc $HOME/
