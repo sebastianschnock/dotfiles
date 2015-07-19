@@ -72,3 +72,6 @@ if [[ ! -d "$TMPDIR" ]]; then
 fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
+
+# source .profile
+[[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
