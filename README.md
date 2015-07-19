@@ -1,5 +1,5 @@
 # dotfiles
-My collection of dotfiles. @sebastianschnock
+My collection of dotfiles.
 
 ## Resources
 @sebastianschnock
