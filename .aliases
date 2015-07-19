@@ -93,3 +93,4 @@ function cheatsheet {
 
 alias keys='cheatsheet keys'
 alias howto='cheatsheet howto'
+alias how='howto'
