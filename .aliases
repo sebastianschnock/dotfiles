@@ -91,6 +91,6 @@ function cheatsheet {
   echo
 }
 
-alias keys='cheatsheet keys'
+alias keys='cheatsheet shortcuts'
 alias howto='cheatsheet howto'
 alias how='howto'
