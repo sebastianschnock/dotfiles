@@ -32,6 +32,9 @@
         ]   
     },
 
+    // change quotes
+    { "keys": ["ctrl+'"], "command": "change_quotes" }
+
     // disable auto-pairing of curly brackets
     // { "keys": ["{"], "command": "unbound" },
     // { "keys": ["{"], "command": "insert_snippet", "args": {"contents": "{$0}"}, "context":
