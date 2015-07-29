@@ -24,9 +24,9 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"SublimeLinter-html-tidy",
-		"CSS",
 		"Vintage",
+		"CSS",
+		"SublimeLinter-html-tidy",
 		"Markdown"
 	],
 	"ignored_words":
@@ -39,6 +39,7 @@
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
+		100
 	],
 	"tab_size": 4,
 	"theme": "Spacegray Eighties.sublime-theme",
