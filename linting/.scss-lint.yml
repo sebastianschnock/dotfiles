@@ -1,0 +1,22 @@
+scss_files: "**/*.scss"
+
+linters:
+
+    Indentation:
+        enabled: true
+        allow_non_nested_indentation: false
+        character: tab # or 'tab'
+        width: 1
+
+    SelectorFormat:
+        enabled: true
+        convention: hyphenated_BEM # or 'BEM', or 'hyphenated_BEM', or 'snake_case', or 'camel_case', or a regex pattern
+
+    LeadingZero:
+        enabled: false
+
+    PropertySortOrder:
+        enabled: false
+
+    HexNotation:
+        enabled: false
