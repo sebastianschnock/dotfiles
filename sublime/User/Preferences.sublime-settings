@@ -12,7 +12,7 @@
 	],
 	"caret_style": "wide",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/SublimeLinter/predawn (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/base16-paraiso.dark (SL).tmTheme",
 	"draw_indent_guides": false,
 	"file_exclude_patterns":
 	[
@@ -24,16 +24,17 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Markdown",
-		"CSS",
+		"Vintage",
 		"SublimeLinter-html-tidy",
-		"Vintage"
+		"CSS",
+		"Markdown"
 	],
 	"ignored_words":
 	[
 		"hitpoints",
 		"param"
 	],
+	"itg_small_tabs": true,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"overlay_scroll_bars": "enabled",
@@ -42,7 +43,7 @@
 		100
 	],
 	"tab_size": 4,
-	"theme": "Spacegray Eighties.sublime-theme",
+	"theme": "itg.flat.dark.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"word_wrap": false
 }
