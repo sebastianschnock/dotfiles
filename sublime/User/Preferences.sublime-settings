@@ -27,7 +27,8 @@
 		"Vintage",
 		"SublimeLinter-html-tidy",
 		"CSS",
-		"Markdown"
+		"Markdown",
+		"ExtendedTabSwitcher"
 	],
 	"ignored_words":
 	[
