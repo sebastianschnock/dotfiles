@@ -16,7 +16,14 @@ $LINK $DOTFILES_ROOT/zsh/.??* $HOME/
 # sublime text
 $LINK $DOTFILES_ROOT/sublime/User $HOME/.config/sublime-text-3/Packages/
 
-# the rest
+# nano
 $LINK $DOTFILES_ROOT/.nanorc $HOME/
+
+# vi
 $LINK $DOTFILES_ROOT/.vimrc $HOME/
+
+# git
 $LINK $DOTFILES_ROOT/.gitconfig $HOME/
+
+# aliases
+$LINK $DOTFILES_ROOT/.aliases $HOME/
