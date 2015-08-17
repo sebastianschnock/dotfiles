@@ -26,10 +26,10 @@
 	"ignored_packages":
 	[
 		"CSS",
-		"SublimeLinter-html-tidy",
-		"Vintage",
+		"Markdown",
 		"ExtendedTabSwitcher",
-		"Markdown"
+		"SublimeLinter-html-tidy",
+		"Vintage"
 	],
 	"ignored_words":
 	[
@@ -45,7 +45,7 @@
 		100
 	],
 	"tab_size": 4,
-	"theme": "itg.flat.dark.sublime-theme",
+	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"word_wrap": false
 }
