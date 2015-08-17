@@ -7,10 +7,21 @@
         "gutter_theme_excludes": [],
         "lint_mode": "load/save",
         "linters": {
+            "htmlhint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "htmltidy": {
                 "@disable": false,
                 "args": [],
                 "excludes": []
+            },
+            "jadelint": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "reporter": "inline"
             },
             "jscs": {
                 "@disable": false,
@@ -35,9 +46,7 @@
         "passive_warnings": false,
         "paths": {
             "linux": [
-                "/home/basti/opt/nvm/current/lib/node_modules/jshint/bin/",
-                "/home/basti/opt/nvm/current/lib/node_modules/jscs/bin",
-                "/home/basti/opt/nvm/current/bin/"
+                "~/opt/nvm/current/bin/"
             ],
             "osx": [],
             "windows": []
