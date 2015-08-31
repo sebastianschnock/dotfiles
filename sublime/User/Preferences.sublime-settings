@@ -19,16 +19,31 @@
 	[
 		"*.fuse_hidden*"
 	],
-	"font_face": "Input Sans",
+	"font_face": "Hack",
 	"font_size": 10,
+	"fonts_list":
+	[
+		{
+			"font_face": "Input Sans",
+			"font_size": 10
+		},
+		{
+			"font_face": "Hack",
+			"font_size": 10
+		},
+		{
+			"font_face": "SourceCodePro",
+			"font_size": 10
+		}
+	],
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"CSS",
-		"Markdown",
 		"ExtendedTabSwitcher",
 		"SublimeLinter-html-tidy",
+		"Markdown",
 		"Vintage"
 	],
 	"ignored_words":
@@ -37,8 +52,8 @@
 		"param"
 	],
 	"itg_small_tabs": true,
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
