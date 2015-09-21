@@ -40,10 +40,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"CSS",
 		"ExtendedTabSwitcher",
-		"SublimeLinter-html-tidy",
 		"Markdown",
+		"CSS",
+		"SublimeLinter-html-tidy",
 		"Vintage"
 	],
 	"ignored_words":
