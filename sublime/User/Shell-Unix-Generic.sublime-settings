@@ -4,6 +4,7 @@
 		".zshenv",
 		".zprofile",
 		"local",
-		".zshrc"
+		".zshrc",
+		".zpreztorc"
 	]
 }
