@@ -42,7 +42,7 @@
 		"Sublime Bookmarks",
 		"SublimeLinter",
 		"SublimeLinter-contrib-htmlhint",
-		"SublimeLinter-contrib-jade-lint",
+		"SublimeLinter-contrib-pug-lint",
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-jscs",
