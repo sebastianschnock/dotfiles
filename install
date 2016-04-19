@@ -14,7 +14,11 @@ $LINK $DOTFILES_ROOT/bash/.??* $HOME/
 $LINK $DOTFILES_ROOT/zsh/.??* $HOME/
 
 # sublime text
-$LINK $DOTFILES_ROOT/sublime/User $HOME/.config/sublime-text-3/Packages/
+if [[ `uname` == 'Linux' ]]; then
+    $LINK $DOTFILES_ROOT/sublime/User $HOME/.config/sublime-text-3/Packages/
+else
+    $LINK $DOTFILES_ROOT/sublime/User "$HOME/Library/Application Support/Sublime Text 3/Packages"
+fi
 
 # nano
 $LINK $DOTFILES_ROOT/.nanorc $HOME/
