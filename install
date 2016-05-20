@@ -12,10 +12,13 @@ $LINK $DOTFILES_ROOT/bash/.??* $HOME/
 
 # zsh
 $LINK $DOTFILES_ROOT/zsh/.??* $HOME/
+$LINK $DOTFILES_ROOT/zsh/prompts/* $HOME/.zprezto/modules/prompt/
 
 # sublime text
+# linux
 if [[ `uname` == 'Linux' ]]; then
     $LINK $DOTFILES_ROOT/sublime/User $HOME/.config/sublime-text-3/Packages/
+# mac os
 else
     $LINK $DOTFILES_ROOT/sublime/User "$HOME/Library/Application Support/Sublime Text 3/Packages"
 fi
