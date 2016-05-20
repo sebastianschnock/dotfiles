@@ -10,3 +10,5 @@ set incsearch
 
 filetype on
 au BufNewFile,BufRead vimperator-.tmp set filetype=tiddlywiki
+
+set laststatus=2
