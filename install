@@ -12,7 +12,7 @@ $LINK $DOTFILES_ROOT/bash/.??* $HOME/
 
 # zsh
 $LINK $DOTFILES_ROOT/zsh/.??* $HOME/
-$LINK $DOTFILES_ROOT/zsh/prompts/* $HOME/.zprezto/modules/prompt/
+$LINK $DOTFILES_ROOT/zsh/prompts/* $HOME/.zprezto/modules/prompt/functions/
 
 # sublime text
 # linux

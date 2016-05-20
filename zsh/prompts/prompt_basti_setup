@@ -1,10 +1,17 @@
 function prompt_basti_precmd {
+	setopt LOCAL_OPTIONS
+	unsetopt XTRACE KSH_ARRAYS
+
 	if (( $+functions[git-info] )); then
 		git-info
 	fi
 }
 
 function prompt_basti_setup {
+
+	setopt LOCAL_OPTIONS
+	unsetopt XTRACE KSH_ARRAYS
+	prompt_opts=(cr percent subst)
 	
 	# Load required functions.
 	autoload -Uz add-zsh-hook
