@@ -35,10 +35,12 @@
 		"tmp/coffee_script*",
 		"tmp/concat-tmp*",
 		"tmp/export_tree*",
-		"tmp/sass_compiler*"
+		"tmp/sass_compiler*",
+		"node_modules",
+		"bower_components"
 	],
-	"font_face": "Hack",
-	"font_size": 10,
+	"font_face": "Input Sans",
+	"font_size": 13,
 	"fonts_list":
 	[
 		{
