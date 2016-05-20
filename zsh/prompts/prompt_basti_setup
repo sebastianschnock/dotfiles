@@ -1,3 +1,6 @@
+# some good links:
+# http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/#the-whole-thing
+
 function prompt_basti_precmd {
 	setopt LOCAL_OPTIONS
 	unsetopt XTRACE KSH_ARRAYS
