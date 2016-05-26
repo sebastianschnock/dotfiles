@@ -42,6 +42,7 @@
 		"SideBarEnhancements",
 		"Sublime Bookmarks",
 		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-htmlhint",
 		"SublimeLinter-contrib-pug-lint",
 		"SublimeLinter-contrib-scss-lint",

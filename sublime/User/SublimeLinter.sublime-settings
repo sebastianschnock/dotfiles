@@ -7,6 +7,11 @@
         "gutter_theme_excludes": [],
         "lint_mode": "load/save",
         "linters": {
+            "eslint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "htmlhint": {
                 "@disable": false,
                 "args": [],
@@ -33,6 +38,12 @@
                 "args": [],
                 "excludes": []
             },
+            "puglint": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "reporter": "inline"
+            },
             "scss": {
                 "@disable": false,
                 "args": [],
@@ -48,7 +59,7 @@
             "linux": [
                 "~/opt/nvm/current/bin/"
             ],
-            "osx": [],
+            "osx": ["/Users/basti/.nvm/current/bin"],
             "windows": []
         },
         "python_paths": {
