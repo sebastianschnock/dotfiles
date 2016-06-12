@@ -1051,9 +1051,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>meta.delimiter.comma.js</string>
+			<string>meta.delimiter.object.comma.js</string>
 			<key>scope</key>
-			<string>meta.delimiter.comma.js</string>
+			<string>meta.delimiter.object.comma.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1864,13 +1864,13 @@
 		</dict>
 	<dict>
             <key>name</key>
-            <string>SublimeLinter Warning</string>
+            <string>SublimeLinter Error</string>
             <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
+            <string>sublimelinter.mark.error</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#DDB700</string>
+                <string>#D02000</string>
             </dict>
         </dict><dict>
             <key>name</key>
@@ -1884,16 +1884,16 @@
             </dict>
         </dict><dict>
             <key>name</key>
-            <string>SublimeLinter Error</string>
+            <string>SublimeLinter Warning</string>
             <key>scope</key>
-            <string>sublimelinter.mark.error</string>
+            <string>sublimelinter.mark.warning</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D02000</string>
+                <string>#DDB700</string>
             </dict>
         </dict></array>
 	<key>uuid</key>
-	<string>b238c753-1549-3f12-a519-0faa5dcd4f65</string>
+	<string>35279c3b-adad-473e-b960-fee631f4d9a5</string>
 </dict>
 </plist>
