@@ -15,5 +15,5 @@ fi
 # load aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
 
-# load local config
-[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+# load local config(s)
+for f in ~/.zshrc.local*; do source $f; done
