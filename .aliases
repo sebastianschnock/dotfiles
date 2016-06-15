@@ -24,8 +24,13 @@ alias vi="vim"
 alias svi="sudo vi"
 
 # bash history
-alias h="history|tail -100"
-alias hg="history|grep"
+if [[ $SHELL == '/bin/zsh' ]]; then
+  alias h='history 1'
+  alias hg='history 1 | grep'
+else
+  alias h="history|tail -100"
+  alias hg="history|grep"
+fi
 
 # ps grep
 alias psg="ps -ef|grep"
