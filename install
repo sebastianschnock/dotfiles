@@ -32,5 +32,12 @@ $LINK $DOTFILES_ROOT/.vimrc $HOME/
 # git
 $LINK $DOTFILES_ROOT/.gitconfig $HOME/
 
+# ack
+$LINK $DOTFILES_ROOT/.ackrc $HOME/
+
 # aliases
 $LINK $DOTFILES_ROOT/.aliases $HOME/
+
+# bin folder
+mkdir -p $HOME/bin
+$LINK $DOTFILES_ROOT/bin/* $HOME/bin

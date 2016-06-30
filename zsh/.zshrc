@@ -12,6 +12,11 @@ fi
 
 # Customize to your needs...
 
+# add personal bin folder
+if [ -d "$HOME/bin" ]; then
+  PATH="$HOME/bin:$PATH"
+fi
+
 # load aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
 
