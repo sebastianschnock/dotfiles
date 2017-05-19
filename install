@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Create symlinks for all the dotfiles
 
@@ -17,6 +17,7 @@ $LINK $DOTFILES_ROOT/zsh/prompts/* $HOME/.zprezto/modules/prompt/functions/
 # sublime text
 # linux
 if [[ `uname` == 'Linux' ]]; then
+    rm -rf $HOME/.config/sublime-text-3/Packages/User
     $LINK $DOTFILES_ROOT/sublime/User $HOME/.config/sublime-text-3/Packages/
 # mac os
 else
