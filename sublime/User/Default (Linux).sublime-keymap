@@ -32,7 +32,9 @@
     },
 
     // change quotes
-    { "keys": ["ctrl+'"], "command": "change_quotes" }
+    { "keys": ["ctrl+'"], "command": "change_quotes" },
+
+    { "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar"}
 
     // disable auto-pairing of curly brackets
     // { "keys": ["{"], "command": "unbound" },

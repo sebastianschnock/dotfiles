@@ -12,7 +12,7 @@
 	],
 	"caret_style": "wide",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/SublimeLinter/base16-paraiso.dark (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
 	"default_line_ending": "unix",
 	"draw_indent_guides": false,
 	"file_exclude_patterns":
@@ -41,7 +41,7 @@
 		"bower_components"
 	],
 	"font_face": "Input Sans",
-	"font_size": 13,
+	"font_size": 10,
 	"fonts_list":
 	[
 		{
@@ -74,6 +74,7 @@
 		"param"
 	],
 	"itg_small_tabs": true,
+	"line_numbers": true,
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
 	"overlay_scroll_bars": "enabled",

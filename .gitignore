@@ -7,5 +7,8 @@
 /sublime/User/Package\ Control.merged-ca-bundle
 /sublime/User/Package\ Control.system-ca-bundle
 /sublime/User/Package\ Control.ca-certs/
+/sublime/User/Color\ Highlighter/**/*.png
+*.tmTheme
+SVN.errors.log
 
     
