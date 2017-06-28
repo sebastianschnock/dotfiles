@@ -12,3 +12,8 @@
 	trustExitCode = true
 [mergetool]
 	keepBackup = false
+[pull]
+	rebase = true
+[alias]
+	wip = !git add --all && git commit -m 'wip' && git push
+	wipr = !git pull && git reset HEAD~1
