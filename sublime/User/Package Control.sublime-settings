@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"Babel",
 		"Base16 Color Schemes",
 		"BracketHighlighter",
 		"ChangeQuotes",
@@ -24,6 +25,7 @@
 		"Markdown Preview",
 		"MarkdownEditing",
 		"Move By Symbols",
+		"Oceanic Next Color Scheme",
 		"Origami",
 		"Package Control",
 		"Restart",
@@ -34,9 +36,6 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-scss-lint",
-		"Theme - Flatgrammer",
-		"Theme - itg.flat",
-		"Theme - Spacegray",
 		"Themr",
 		"TypeScript",
 		"Zen Tabs"
