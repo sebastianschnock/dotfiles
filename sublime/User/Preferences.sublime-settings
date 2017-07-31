@@ -40,23 +40,8 @@
 		"node_modules",
 		"bower_components"
 	],
-	"font_face": "Input Sans",
+	"font_face": "InputSans",
 	"font_size": 10,
-	"fonts_list":
-	[
-		{
-			"font_face": "Input Sans",
-			"font_size": 10
-		},
-		{
-			"font_face": "Hack",
-			"font_size": 10
-		},
-		{
-			"font_face": "SourceCodePro",
-			"font_size": 10
-		}
-	],
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -65,7 +50,6 @@
 		"ExtendedTabSwitcher",
 		"Local History",
 		"Markdown",
-		"SublimeLinter-html-tidy",
 		"Vintage"
 	],
 	"ignored_words":
@@ -84,7 +68,7 @@
 	],
 	"show_full_path": true,
 	"tab_size": 4,
-	"theme": "Flatgrammer.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"word_wrap": false
 }
