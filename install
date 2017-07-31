@@ -39,6 +39,11 @@ $LINK $DOTFILES_ROOT/.ackrc $HOME/
 # aliases
 $LINK $DOTFILES_ROOT/.aliases $HOME/
 
+# xfce
+if [[ -f $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml ]]; then
+	$LINK $DOTFILES_ROOT/xfce/xfce4-keyboard-shortcuts.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/
+fi
+
 # bin folder
 mkdir -p $HOME/bin
 $LINK $DOTFILES_ROOT/bin/* $HOME/bin
