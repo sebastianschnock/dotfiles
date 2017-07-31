@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="close_tab" mtime="1501503461" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="new_tab" mtime="1501503460" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="next_tab" mtime="1501503454" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="previous_tab" mtime="1501503453" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="switch_tab10" mtime="1501503451" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="switch_tab9" mtime="1501503449" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="switch_tab8" mtime="1501503449" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="switch_tab7" mtime="1501503448" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="switch_tab6" mtime="1501503448" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="switch_tab5" mtime="1501503448" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="switch_tab4" mtime="1501503447" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="switch_tab3" mtime="1501503445" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="switch_tab2" mtime="1501503445" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="switch_tab1" mtime="1501503444" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="rename_current_tab" mtime="1501503439" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+</gconf>
