@@ -7,7 +7,6 @@
 	[
 		"All Autocomplete",
 		"Babel",
-		"Base16 Color Schemes",
 		"BracketHighlighter",
 		"ChangeQuotes",
 		"Color Highlighter",
@@ -36,7 +35,7 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-scss-lint",
-		"Themr",
+		"Sync View Scroll",
 		"TypeScript",
 		"Zen Tabs"
 	]

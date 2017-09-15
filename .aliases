@@ -39,6 +39,7 @@ alias psg="ps -ef|grep"
 #alias e=subl
 alias n=nano
 alias rs=rsub
+alias nomnom="npm cache clear && rm -rf node_modules && npm install"
 alias nombom="npm cache clear && bower cache clean && rm -rf node_modules bower_components && npm install && bower install"
 
 # workaround to make aliases available to sudo (from http://askubuntu.com/a/22043)

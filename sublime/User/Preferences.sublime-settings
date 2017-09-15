@@ -12,7 +12,7 @@
 	],
 	"caret_style": "wide",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Mariana (SL).tmTheme",
 	"default_line_ending": "unix",
 	"draw_indent_guides": false,
 	"file_exclude_patterns":
@@ -68,7 +68,7 @@
 	],
 	"show_full_path": true,
 	"tab_size": 4,
-	"theme": "Oceanic Next.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"word_wrap": false
 }
