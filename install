@@ -21,6 +21,7 @@ if [[ `uname` == 'Linux' ]]; then
     $LINK $DOTFILES_ROOT/sublime/User $HOME/.config/sublime-text-3/Packages/
 # mac os
 else
+	rm -rf "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
     $LINK $DOTFILES_ROOT/sublime/User "$HOME/Library/Application Support/Sublime Text 3/Packages"
 fi
 
@@ -45,7 +46,9 @@ if [[ -f $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts
 fi
 
 # guake
-$LINK $DOTFILES_ROOT/guake $HOME/.gconf/apps/
+if [[ `uname` == 'Linux' ]]; then
+	$LINK $DOTFILES_ROOT/guake $HOME/.gconf/apps/
+fi
 
 # bin folder
 mkdir -p $HOME/bin
