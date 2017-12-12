@@ -12,7 +12,7 @@
 	],
 	"caret_style": "wide",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/SublimeLinter/Mariana (SL).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
 	"default_line_ending": "unix",
 	"draw_indent_guides": false,
 	"file_exclude_patterns":
@@ -41,7 +41,7 @@
 		"bower_components"
 	],
 	"font_face": "InputSans",
-	"font_size": 10,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
