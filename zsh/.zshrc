@@ -22,3 +22,10 @@ fi
 
 # load local config(s)
 for f in ~/.zshrc.local*; do source $f; done
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# rename iterm tab
+function title {
+    echo -ne "\033]0;"$*"\007"
+}
