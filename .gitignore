@@ -8,6 +8,7 @@
 /sublime/User/Package\ Control.system-ca-bundle
 /sublime/User/Package\ Control.ca-certs/
 /sublime/User/Color\ Highlighter/**/*.png
+/sublime/User/oscrypto-ca-bundle.crt
 *.tmTheme
 SVN.errors.log
 
