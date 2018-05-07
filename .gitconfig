@@ -18,3 +18,4 @@
 	wip = !git add --all && git commit -m 'wip' && git push
 	wipr = !git pull && git reset HEAD~1
 	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+	squashto = "!f() { git log $1 | head -1 | sed 's/commit //' | xargs -o git rebase -i; }; f"
