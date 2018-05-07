@@ -12,7 +12,7 @@
 	],
 	"caret_style": "wide",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
+	"color_scheme": "Packages/DA UI/DA Dark.tmTheme",
 	"default_line_ending": "unix",
 	"draw_indent_guides": false,
 	"file_exclude_patterns":
@@ -68,7 +68,7 @@
 	],
 	"show_full_path": true,
 	"tab_size": 4,
-	"theme": "Adaptive.sublime-theme",
+	"theme": "DA.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"word_wrap": false
 }
