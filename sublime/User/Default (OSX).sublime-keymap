@@ -39,7 +39,11 @@
 
 
     { "keys": ["ctrl+pageup"], "command": "prev_view" },
-    { "keys": ["ctrl+pagedown"], "command": "next_view" }
+    { "keys": ["ctrl+pagedown"], "command": "next_view" },
+
+    { "keys": ["alt+pageup"], "command": "jump_back" },
+    { "keys": ["alt+pagedown"], "command": "jump_forward" }
+
 
     // disable auto-pairing of curly brackets
     // { "keys": ["{"], "command": "unbound" },
