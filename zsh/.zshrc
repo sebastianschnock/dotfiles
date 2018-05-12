@@ -29,3 +29,8 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 function title {
     echo -ne "\033]0;"$*"\007"
 }
+
+# the cow remembers
+echo '
+npx to run local npm install, eg: npx babel
+' | cowsay -n
