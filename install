@@ -45,6 +45,9 @@ if [[ -f $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts
 	$LINK $DOTFILES_ROOT/xfce/xfce4-keyboard-shortcuts.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/
 fi
 
+# tabset (iterm2)
+$LINK $DOTFILES_ROOT/.tabset $HOME/
+
 # guake
 if [[ `uname` == 'Linux' ]]; then
 	$LINK $DOTFILES_ROOT/guake $HOME/.gconf/apps/
