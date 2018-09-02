@@ -2,8 +2,13 @@
 	"_comment": "http://www.color-hex.com/color-palette/49503",
 	"colors": {
 		"main": "#2b2926",
+
 		"typo3": "#c35b48",
+		"nutrime": "#c35b48",
+
 		"docker": "#e5c027",
+		"serve": "#e5c027",
+
 		"gulp": "#458962"
 	}
 }

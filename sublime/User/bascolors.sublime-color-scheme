@@ -1,0 +1,88 @@
+{
+    "name": "Bastis color scheme",
+    "variables": {
+        "background": "#312E20",
+        "foreground": "#C78D38",
+        "highlight": "#504B31",
+        "string": "#DBC676",
+        "bla": "#E2D4BE",
+        "focus": "#22DAEF",
+        "punctuation": "#756C4A",
+        "prop": "#FC9213"
+    },
+    "globals":
+    {
+        "background": "var(background)",
+        "foreground": "var(foreground)",
+        "caret": "var(string)",
+        "line_highlight": "var(highlight)"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "#888888"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(string)",
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "var(bla)",
+        },
+        {
+            "name": "Keyword control",
+            "scope": "keyword.control",
+            "foreground": "var(bla)",
+        },
+        {
+            "name": "Keyword operator",
+            "scope": "keyword.operator",
+            "foreground": "var(bla)",
+        },
+        {
+            "name": "Keyword other",
+            "scope": "keyword.other",
+            "foreground": "var(bla)",
+        },
+        {
+            "name": "Function",
+            "scope": "entity.name.function",
+            "foreground": "var(focus)",
+        },
+        {
+            "name": "Tag",
+            "scope": "entity.name.tag",
+            "foreground": "var(focus)",
+        },
+        {
+            "name": "Type",
+            "scope": "entity.name.type",
+            "foreground": "var(prop)",
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(focus)",
+        },
+        {
+            "name": "Source",
+            "scope": "markup",
+            "foreground": "var(focus)",
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation",
+            "foreground": "var(punctuation)",
+        },
+        {
+            "name": "Variables",
+            "scope": "variable",
+            "foreground": "var(prop)",
+        }
+    ]
+}
