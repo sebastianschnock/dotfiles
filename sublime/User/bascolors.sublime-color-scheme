@@ -15,7 +15,9 @@
         "background": "var(background)",
         "foreground": "var(foreground)",
         "caret": "var(string)",
-        "line_highlight": "var(highlight)"
+        "line_highlight": "var(highlight)",
+        "selection": "var(focus)",
+        "selection_foreground": "var(punctuation)"
     },
     "rules":
     [

@@ -11,5 +11,6 @@
 /sublime/User/oscrypto-ca-bundle.crt
 *.tmTheme
 SVN.errors.log
+.DS_Store
 
     

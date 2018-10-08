@@ -64,10 +64,6 @@
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
 	"overlay_scroll_bars": "enabled",
-	"rulers":
-	[
-		100
-	],
 	"show_full_path": true,
 	"tab_size": 4,
 	"theme": "Material-Theme.sublime-theme",
