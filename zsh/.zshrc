@@ -31,6 +31,4 @@ function title {
 }
 
 # the cow remembers
-echo '
-npx to run local npm install, eg: npx babel
-' | cowsay -n
+cat ${HOME}/.cowsay | cowsay -f $(ls /usr/local/Cellar/cowsay/*/share/cows/*.cow | gshuf -n1) -p
