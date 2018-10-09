@@ -31,4 +31,4 @@ function title {
 }
 
 # the cow remembers
-cat ${HOME}/.cowsay | cowsay -f $(ls /usr/local/Cellar/cowsay/*/share/cows/*.cow | gshuf -n1) -p
+cat ${HOME}/.cowsay | cowsay -f $(ls /usr/local/Cellar/cowsay/*/share/cows/*.cow | gshuf -n1) -p -n
